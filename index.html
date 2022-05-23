@@ -19,27 +19,23 @@
 </head>
 
 <body>
-    <div class="top_section py-1">
+    <header>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="d-sm-flex">
                         <div class="email_top">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
-                        </div>
-                        <div class="contact_tab">
                             <a href="https://mail.google.com/" class="contact_tab">contacts@domain.com</a>
                         </div>
                         <div class="map_icon">
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        </div>
-                        <div class="Ji_sunset">
-                            <a href="" class="Ji_sunset">Ji.Sunset Road No.815,kuta,Bali80361</a>
+                            <a href="" class="contact_tab">Ji.Sunset Road No.815,kuta,Bali80361</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class=" d-flex float-right">
+                    <div class=" d-flex float-right justify-content-center">
                         <div class="icon_section">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                         </div>
@@ -59,21 +55,23 @@
         <div class="">
             <hr class="border_take" />
         </div>
-    </div>
-    <div class="financer_menu">
+    </header>
+    <div class="">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-primary">
-                <img src="assets/images/financerlogo.jpg" class="financer_logo" alt="financerlogo">
+            <nav class="navbar navbar-expand-lg">
+                <a href="">
+                    <img src="assets/images/financerlogo.jpg" class="financer_logo" alt="financerlogo">
+                </a>
                 <a class="navbar-brand financer-brand" href="#">Financerr</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                <button class="navbar-toggler navbar-light border" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon navbar-light"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto home-tab">
-                        <li class="nav-item dropdown home-tab">
-                            <a class="nav-link home-menu" href="#" id="navbarScrollingDropdown1" role="button"
+                <div class="collapse navbar-collapse home-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link" href="#" id="navbarScrollingDropdown1" role="button"
                                 data-toggle="dropdown" aria-expanded="false">
                                 Home <i class="fa fa-angle-down" aria-hidden="true"></i>
                             </a>
@@ -86,14 +84,14 @@
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item home-tab ">
-                            <a class="nav-link home-menu" href="#">About Us</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
                         </li>
-                        <li class="nav-item home-tab">
-                            <a class="nav-link home-menu" href="#">Services</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
                         </li>
-                        <li class="nav-item dropdown home-tab">
-                            <a class="nav-link home-menu" href="#" id="navbarScrollingDropdown3" role="button"
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarScrollingDropdown3" role="button"
                                 data-toggle="dropdown" aria-expanded="false">
                                 Pages <i class="fa fa-angle-down" aria-hidden="true"></i>
                             </a>
@@ -106,8 +104,8 @@
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item dropdown home-tab">
-                            <a class="nav-link home-menu" href="#" id="navbarScrollingDropdown5" role="button"
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarScrollingDropdown5" role="button"
                                 data-toggle="dropdown" aria-expanded="false">
                                 Contacts <i class="fa fa-angle-down" aria-hidden="true"></i>
                             </a>
@@ -121,11 +119,11 @@
                             </ul>
                         </li>
                     </ul>
-                    <div class="phone_icon ml-4">
+                    <div class="phone_icon mb-2">
                         <i class="fa fa-phone" aria-hidden="true"></i>
                     </div>
                     <div class="free_consult">
-                        <p> Free consultation ( 021 ) 231-2870</p>
+                        <p>Free consultation <a href="tel:+918084237632">(021) 231-2870</a></p>
                     </div>
                 </div>
             </nav>
@@ -144,69 +142,80 @@
                         </p>
                     </div>
                     <div class="">
-                        <button type="button" class="btn btn-lg text-white shadow-none getaquote_button"> GET A
+                        <button type="button"
+                            class="btn btn-lg btn-outline-primary text-white shadow-none getaquote_button"> GET A
                             QUOTE </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="professionalAdvice mb-4">
+    <div fourcard_section>
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
-                    <div class="card first_card mb-3">
-                        <div class="card-body">
-                            <div class="professional_icon">
-                                <i class="fa fa-user" aria-hidden="true"></i>
+                <div class="row ">
+                    <div class="col-md-3">
+                        <div class="card first_card mb-3">
+                            <div class="card-body">
+                                <div class="professional_icon">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                </div>
+                                <h5 class="card-title mt-2">Professional Advice</h5>
+                                <p class="card-text some_quick">Some quick example text to build on the card title and
+                                    make
+                                    up the bulk of the
+                                </p>
                             </div>
-                            <h5 class="card-title mt-2">Professional Advice</h5>
-                            <p class="card-text some_quick">Some quick example text to build on the card title and make
-                                up the bulk of the
-                            </p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card first_card mb-3">
-                        <div class="card-body">
-                            <div class="professional_icon">
-                                <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+                    <div class="col-md-3">
+                        <div class="card first_card mb-3">
+                            <div class="card-body">
+                                <div class="professional_icon">
+                                    <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+                                </div>
+                                <h5 class="card-title mt-2">Fully Independent</h5>
+                                <p class="card-text some_quick">Some quick example text to build on the card title and
+                                    make
+                                    up the bulk of the
+                                </p>
                             </div>
-                            <h5 class="card-title mt-2">Fully Independent</h5>
-                            <p class="card-text some_quick">Some quick example text to build on the card title and make
-                                up the bulk of the
-                            </p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card first_card mb-3">
-                        <div class="card-body">
-                            <div class="professional_icon">
-                                <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                    <div class="col-md-3">
+                        <div class="card first_card mb-3">
+                            <div class="card-body">
+                                <div class="professional_icon">
+                                    <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                                </div>
+                                <h5 class="card-title">Transparant</h5>
+                                <p class="card-text some_quick">Some quick example text to build on the card title and
+                                    make
+                                    up the bulk of the
+                                </p>
                             </div>
-                            <h5 class="card-title">Transparant</h5>
-                            <p class="card-text some_quick">Some quick example text to build on the card title and make
-                                up the bulk of the
-                            </p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card first_card">
-                        <div class="card-body">
-                            <div class="professional_icon">
-                                <i class="fa fa-ship" aria-hidden="true"></i>
+                    <div class="col-md-3">
+                        <div class="card first_card">
+                            <div class="card-body">
+                                <div class="professional_icon">
+                                    <i class="fa fa-ship" aria-hidden="true"></i>
+                                </div>
+                                <h5 class="card-title">Great Support</h5>
+                                <p class="card-text some_quick">Some quick example text to build on the card title and
+                                    make
+                                    up the bulk of the
+                                </p>
                             </div>
-                            <h5 class="card-title">Great Support</h5>
-                            <p class="card-text some_quick">Some quick example text to build on the card title and make
-                                up the bulk of the
-                            </p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="py-5">
+        <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="about_content">
@@ -238,7 +247,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 mb-5">
                     <div class="card border-0 video_tab">
                         <a href="assets/images/dhokavideo.mp4" data-fancybox="" tabindex="0">
                             <img src="assets/images/firstimage.jpg" class="img-fluid image-size" alt="videopicture">
@@ -261,7 +270,7 @@
                             </p>
                         </div>
                         <div class=" viewall_button text-white mt-3">
-                            <button type="button" class="btn btn-outline-primary"> VIEW ALL </button>
+                            <button type="button" class="btn btn-outline-primary btn-lg w-50"> VIEW ALL </button>
                         </div>
                     </div>
                 </div>
@@ -444,7 +453,7 @@
             </div>
         </div>
     </div>
-    <section class="our Team py-5">
+    <section class="py-5">
         <div class="container">
             <div>
                 <div class="">
@@ -494,7 +503,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="d-flex">
-                                        <div class="phone_icon">
+                                        <div class="phone_icon_footer">
                                             <i class="fa fa-envelope" aria-hidden="true"></i>
                                         </div>
                                         <div class="">
@@ -569,7 +578,7 @@
                                 adviser by the team head coach
                             </p>
                             <div class="d-flex">
-                                <div class="phone_icon">
+                                <div class="phone_icon_footer">
                                     <i class="fa fa-phone" aria-hidden="true"></i>
                                 </div>
                                 <div class=" mt-1">
@@ -646,7 +655,9 @@
                             <p>Lorem ipsum dolor sit amet consectetur elit. Tempore, ea quidem. Quia beatae,</p>
                         </div>
                         <div class="">
-                            <button type="button" class="btn btn-lg text-white shadow-none getaquote_button mt-3"> GET A
+                            <button type="button"
+                                class="btn btn-lg text-white btn-outline-primary shadow-none getaquote_button mt-3"> GET
+                                A
                                 QUOTE </button>
                         </div>
 
