@@ -46,7 +46,7 @@ a:focus {
   margin: 0px 5px 0px 5px;
 }
 .phone_icon {
-  font-size: 36px;
+  font-size: 20px;
   color: #30bc8f;
   padding: 0px 5px 0px 5px;
 }
@@ -87,8 +87,8 @@ a:focus {
   min-width: 100%;
   max-width: 100%;
   transform: translate(0px, -60px);
-  height: 260px;
-  border-bottom: 8px solid #30bc8f;
+  height: 280px;
+  box-shadow: 0px 10px 0px 0px #30bc8f;
 }
 .professional_icon {
   font-size: 40px;
@@ -101,17 +101,19 @@ a:focus {
   color: #30bc8f;
 }
 .twenty_years {
-  padding: 7px 0px 0px 15px;
+  padding: 0px 10px 0px 10px;
 }
 .forty_five {
-  padding: 7px 0px 0px 15px;
+  padding: 0px 10px 0px 10px;
 }
 .fourty_icon {
-  padding: 0px 0px 0px 50px;
+  padding: 0px 10px 0px 10px;
 }
 .image-size {
   border-radius: 10% 0%;
   box-shadow: 20px 20px 0px 0px #30bc8f;
+  width: 95%;
+  height: 400px;
 }
 .services_tab {
   color: #1ba42c;
@@ -132,7 +134,11 @@ a:focus {
   font-size: 35px;
 }
 .sevice_somequick {
+  position: absolute;
   color: #e4e7eb;
+  top: 82px;
+  left: 20%;
+  font-size: 18px;
 }
 .lorem_tab {
   color: #b8c0c3;
@@ -158,8 +164,40 @@ a:focus {
 .some_quick_far {
   color: gray;
 }
+.investment_planning {
+  position: relative;
+}
 .eightysix {
-  margin-left: 50%;
+  position: absolute;
+  top: 0;
+  right: 15%;
+}
+.Account_sourcing {
+  position: relative;
+}
+.Eighty {
+  position: absolute;
+  top: 0;
+  right: 18%;
+}
+.Business_taxation {
+  position: relative;
+}
+.SeventyEight {
+  position: absolute;
+  top: 0;
+  right: 20%;
+}
+.Payrool_salary {
+  position: relative;
+}
+.eightythree {
+  position: absolute;
+  top: 0;
+  right: 15%;
+}
+.progress_tab {
+  color: #30bc8f;
 }
 .metrics_icon {
   font-size: 40px;
@@ -172,11 +210,11 @@ a:focus {
 .Our_team {
   color: #30bc8f;
 }
-.expert_team {
+/* .expert_team {
   height: 340px;
   width: 100%;
   border-radius: 10% 0%;
-}
+} */
 .OurTeam {
   background-color: #ffffff;
   width: 100%;
@@ -190,7 +228,6 @@ a:focus {
 }
 .footer_call {
   width: 145px;
-  margin: 0px 0px 0px 10px;
   color: gray;
 }
 .map_icon_footer {
