@@ -7,8 +7,12 @@
 
 /* Tab CSS */
 @media (min-width: 768px) and (max-width: 991px) {
+  .service_card_tab {
+    width: 100% !important;
+    height: 100% !important;
+    box-shadow: 0 0 8px;
+  }
 }
-
 /* Small Screen Desktop */
 @media (min-width: 992px) and (max-width: 1024px) {
 }

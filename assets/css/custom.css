@@ -9,11 +9,9 @@ a:focus {
   outline: none;
 }
 .email_top {
-  /* padding: 0px 15px 0px 0px; */
   color: #30bc8f;
 }
 .Ji_sunset {
-  /* padding: 0px 0px 0px 10px; */
   color: #d0d4d7;
 }
 .map_icon {
@@ -100,21 +98,12 @@ a:focus {
   font-size: 40px;
   color: #30bc8f;
 }
-.Aboutus_tab {
-  display: contents;
-}
 .some_quick {
   color: gray;
 }
 .about_content {
   color: #30bc8f;
 }
-/* .forty_five {
-  padding: 0px 10px 0px 10px;
-} */
-/* .fourty_icon {
-  padding: 0px 10px 0px 10px;
-} */
 .image-size {
   border-radius: 10% 0%;
   box-shadow: 20px 20px 0px 0px #30bc8f;
@@ -124,11 +113,6 @@ a:focus {
 .services_tab {
   color: #30bc8f;
 }
-/* .services_Explore {
-  display: grid;
-  place-items: center;
-  min-height: 100vh;
-} */
 .explore_what {
   width: 200px;
 }
@@ -143,13 +127,6 @@ a:focus {
   width: 100%;
   height: 230px;
   box-shadow: 0 0 8px;
-}
-@media (min-width: 768px) {
-  .service_card_tab {
-    width: 100%;
-    height: 100%;
-    box-shadow: 0 0 8px;
-  }
 }
 .service_icon {
   padding: 0px 10px 0px 10px;
@@ -175,9 +152,10 @@ a:focus {
   background-color: #ffffff;
 }
 .expert_pic {
-  /* width: 80%; */
   height: 325px;
   box-shadow: -20px -20px 0px 0px #30bc8f;
+  border-top-left-radius: 15%;
+  border-bottom-right-radius: 15%;
 }
 .who_we {
   color: #30bc8f;
@@ -274,14 +252,6 @@ a:focus {
 }
 .footer_card {
   transform: translate(0px, 62px);
-  height: 170px;
-}
-.newsletter_tab {
-  padding: 0px 0px 0px 12px;
-}
-.farfar_footer {
-  padding: 0px 32px 0px 32px;
-  color: gray;
 }
 .send_button:hover {
   background-color: #30bc8f;
@@ -293,7 +263,7 @@ a:focus {
 }
 .emailadrees_tab {
   position: relative;
-  top: 30%;
+  top: 34%;
 }
 .team_expert_tab {
   position: relative;
@@ -304,7 +274,7 @@ a:focus {
   padding: 0px 5px 0px 0px;
 }
 .phone_icon_footer {
-  font-size: 22px;
+  font-size: 26px;
   color: #30bc8f;
 }
 .jennifer_photo {
