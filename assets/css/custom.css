@@ -17,7 +17,7 @@ a:focus {
   color: #d0d4d7;
 }
 .map_icon {
-  padding: 0px 4px 0px 4px;
+  padding: 0px 10px 0px 10px;
   color: #30bc8f;
 }
 .icon_section {
@@ -25,30 +25,32 @@ a:focus {
 }
 .contact_tab {
   color: #d0d4d7;
+  padding: 0px 10px 0px 10px;
 }
 .border_take {
   border-top: 1px solid gray;
 }
 .financer_logo {
-  width: 50px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   object-fit: cover;
 }
 .financer-brand {
   color: black;
   font-size: 32px;
+  display: contents;
 }
 .financer-brand:hover {
   color: #30bc8f;
 }
 .free_consult {
   width: 122px;
-  margin: 0px 5px 0px 5px;
+  margin: 0px 8px 0px 8px;
 }
 .phone_icon {
-  font-size: 20px;
+  font-size: 32px;
   color: #30bc8f;
-  padding: 0px 5px 0px 5px;
+  padding: 0px 10px 0px 10px;
 }
 .home-menu ul li a {
   color: gray;
@@ -67,6 +69,7 @@ a:focus {
   width: 100%;
   height: 600px;
   position: relative;
+  filter: grayscale();
 }
 .financial_solution {
   position: absolute;
@@ -84,10 +87,10 @@ a:focus {
   color: #d0d4d7;
 }
 .first_card {
-  min-width: 100%;
-  max-width: 100%;
-  transform: translate(0px, -60px);
-  height: 280px;
+  width: 100%;
+  transform: translate(0px, -120px);
+}
+.professional_card {
   box-shadow: 0px 10px 0px 0px #30bc8f;
 }
 .professional_icon {
@@ -118,6 +121,11 @@ a:focus {
 .services_tab {
   color: #1ba42c;
 }
+/* .services_Explore {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+} */
 .explore_what {
   width: 200px;
 }
@@ -125,28 +133,34 @@ a:focus {
   background-color: #1ba42c;
 }
 .service_card_tab {
-  height: 180px;
+  width: 100%;
+  height: 230px;
   box-shadow: 0 0 8px;
 }
+@media (min-width: 768px) {
+  .service_card_tab {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 8px;
+  }
+}
 .service_icon {
-  padding: 0px 15px 0px 0px;
+  padding: 0px 10px 0px 10px;
   color: #30bc8f;
   font-size: 35px;
 }
 .sevice_somequick {
-  position: absolute;
   color: #e4e7eb;
-  top: 82px;
-  left: 20%;
+
   font-size: 18px;
 }
 .lorem_tab {
   color: #b8c0c3;
 }
-.Services_parent {
+/* .Services_parent {
   position: relative;
   top: 20%;
-}
+} */
 .Service-explore {
   background-color: #f5fffc;
 }
@@ -231,7 +245,7 @@ a:focus {
   color: gray;
 }
 .map_icon_footer {
-  padding: 0px 0px 0px 4px;
+  padding: 0px 4px 0px 4px;
   color: #30bc8f;
 }
 .lorem_footer {
@@ -241,7 +255,7 @@ a:focus {
   color: #30bc8f;
 }
 .Ji_sunset {
-  padding: 0px 0px 0px 10px;
+  padding: 0px 10px 0px 10px;
   color: gray;
 }
 .stylefooter {
@@ -249,10 +263,10 @@ a:focus {
 }
 .download_footer {
   color: #787d81;
-  font-size: 20px;
+  font-size: 17px;
 }
 .footer_card {
-  transform: translate(0px, -112px);
+  transform: translate(0px, -92px);
   height: 158px;
 }
 .newsletter_tab {
@@ -284,4 +298,15 @@ a:focus {
 .phone_icon_footer {
   font-size: 22px;
   color: #30bc8f;
+}
+.jennifer_photo {
+  border-radius: 10% 0%;
+}
+.our-team-expert {
+  width: 100%;
+  height: 100%;
+  min-height: 680px;
+}
+.expert_progress_bar {
+  background-color: #30bc8f;
 }
