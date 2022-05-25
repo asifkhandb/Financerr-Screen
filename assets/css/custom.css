@@ -69,7 +69,6 @@ a:focus {
   width: 100%;
   height: 600px;
   position: relative;
-  filter: grayscale();
 }
 .financial_solution {
   position: absolute;
@@ -82,6 +81,7 @@ a:focus {
 }
 .getaquote_button {
   width: 200px;
+  border: 1px solid#30bc8f;
 }
 .the_european {
   color: #d0d4d7;
@@ -99,21 +99,21 @@ a:focus {
   font-size: 40px;
   color: #30bc8f;
 }
+.Aboutus_tab {
+  display: contents;
+}
 .some_quick {
   color: gray;
 }
 .about_content {
   color: #30bc8f;
 }
-.twenty_years {
+/* .forty_five {
   padding: 0px 10px 0px 10px;
-}
-.forty_five {
+} */
+/* .fourty_icon {
   padding: 0px 10px 0px 10px;
-}
-.fourty_icon {
-  padding: 0px 10px 0px 10px;
-}
+} */
 .image-size {
   border-radius: 10% 0%;
   box-shadow: 20px 20px 0px 0px #30bc8f;
@@ -121,7 +121,7 @@ a:focus {
   height: 400px;
 }
 .services_tab {
-  color: #1ba42c;
+  color: #30bc8f;
 }
 /* .services_Explore {
   display: grid;
@@ -131,8 +131,12 @@ a:focus {
 .explore_what {
   width: 200px;
 }
-.viewall_button :hover {
-  background-color: #1ba42c;
+.viewall_button {
+  border: 1px solid #30bc8f;
+}
+.viewall_button:hover {
+  background-color: #30bc8f;
+  color: #fff;
 }
 .service_card_tab {
   width: 100%;
@@ -152,7 +156,7 @@ a:focus {
   font-size: 35px;
 }
 .sevice_somequick {
-  color: #e4e7eb;
+  color: #696969;
 
   font-size: 18px;
 }
@@ -169,9 +173,9 @@ a:focus {
 .GetExpert {
   background-color: #ffffff;
 }
-.boys_pic {
-  width: 80%;
-  height: 450px;
+.expert_pic {
+  /* width: 80%; */
+  height: 325px;
   box-shadow: -20px -20px 0px 0px #30bc8f;
 }
 .who_we {
@@ -268,7 +272,7 @@ a:focus {
   font-size: 17px;
 }
 .footer_card {
-  transform: translate(0px, -92px);
+  transform: translate(0px, 62px);
   height: 170px;
 }
 .newsletter_tab {
@@ -276,6 +280,7 @@ a:focus {
 }
 .farfar_footer {
   padding: 0px 32px 0px 32px;
+  color: gray;
 }
 .send_button:hover {
   background-color: #30bc8f;
@@ -302,13 +307,18 @@ a:focus {
   color: #30bc8f;
 }
 .jennifer_photo {
-  border-radius: 10% 0%;
+  /* border-radius: 10% 0%; */
+  box-shadow: 0px 0px 15px 1px #00000022;
+  border-top-left-radius: 15%;
+  border-bottom-right-radius: 15%;
 }
 .our-team-expert {
   width: 100%;
   height: 100%;
-  min-height: 680px;
 }
 .expert_progress_bar {
   background-color: #30bc8f;
+}
+.financerfooter_tab {
+  line-height: 36px;
 }
