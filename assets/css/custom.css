@@ -78,6 +78,7 @@ a:focus {
 }
 .getaquote_button:hover {
   background-color: #30bc8f;
+  color: #ffffff;
 }
 .getaquote_button {
   width: 200px;
